@@ -73,8 +73,7 @@ App.module.css.
       <VoteOptions
         onVote={handleVote}
         onReset={resetVotes}
-        canReset={totalVotes > 0}
-      />
+        canReset={totalVotes > 0}/>
 
 Це компонент з кнопками "Good", "Neutral", "Bad", "Reset". Ти передаєш йому:
 
